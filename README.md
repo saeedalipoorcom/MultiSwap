@@ -1,11 +1,11 @@
 USDTContract deployed to:
-https://mumbai.polygonscan.com/address/0x8cf778CD2Db99626331275C559aF5cC1624aFA07
+https://mumbai.polygonscan.com/address/0x656Aa6F62CD8e2B9CD9125fF1ed8F7852433D2C9
 
 USDCContract deployed to:
-https://mumbai.polygonscan.com/address/0x0B3a2a5a311c6Ea5D8930F590dbf43bA1A2c94DA
+https://mumbai.polygonscan.com/address/0x248d6CA2D941DD596424E0Cc9D3B1C94Ae4Df2e5
 
 KingTokenContract deployed to:
-https://mumbai.polygonscan.com/address/0x3DC2c46bf8Af0002E0238404E450A090f562904C
+https://mumbai.polygonscan.com/address/0xF6F1Dc9bdcBEc57fF233d2335cd21547869Be27D
 
 SwapContract deployed to:
-https://mumbai.polygonscan.com/address/0xcA749E91953D9F9beDC4EB7B21333abCE6fd1bc2
+https://mumbai.polygonscan.com/address/0x0976CC4d72B69073E1926F6740D9C21bE08ea2F6

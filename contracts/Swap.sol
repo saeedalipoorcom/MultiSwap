@@ -47,12 +47,15 @@ contract Swap {
 
         //////////////////////////////////////////////////////////////////////////////////////////////
         // first we get output amount for user; how much user can get back in return after swap;
+        // for KING token we have unlimited balance but for other tokens we need to check balance;
         //////////////////////////////////////////////////////////////////////////////////////////////
         uint256 _outAmount = quoteFrom(_fromToken, _fromAmount);
-        require(
-            IERC20(_toToken).balanceOf(address(this)) >= _outAmount,
-            "no enough balance for ToToken"
-        );
+        if (_toToken != KingToken) {
+            require(
+                IERC20(_toToken).balanceOf(address(this)) >= _outAmount,
+                "no enough balance for ToToken"
+            );
+        }
 
         //////////////////////////////////////////////////////////////////////////////////////////////
         // sell KING token, we will burn it.
